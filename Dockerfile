@@ -5,7 +5,7 @@ FROM registry.cn-shanghai.aliyuncs.com/aliseccompetition/tensorflow:1.1.0-devel-
 #MAINTAINER
 MAINTAINER AlibabaSec
 
-ADD . /competition
+ADD defense_example /competition
 
 WORKDIR /competition
 RUN pip --no-cache-dir install  -r requirements.txt
